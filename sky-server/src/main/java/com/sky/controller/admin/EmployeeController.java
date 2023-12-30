@@ -97,4 +97,18 @@ public class EmployeeController {
         return Result.success(pageResult);
     }
 
+    /**
+     * Change the status of employee account
+     * @param status
+     * @param id
+     * @return
+     */
+    @PostMapping("/status/{status}")
+    @ApiOperation("Change the status of employee account")
+    public Result startOrStop(@PathVariable Integer status, Long id) {
+        log.info("Change the status of employee account: {}, {}", status, id);
+        employeeService.startOrStop(status, id);
+        return Result.success();
+    }
+
 }
