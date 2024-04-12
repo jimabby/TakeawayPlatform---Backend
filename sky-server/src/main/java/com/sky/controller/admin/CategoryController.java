@@ -41,9 +41,9 @@ public class CategoryController {
      * @return
      */
     @GetMapping("/page")
-    @ApiOperation("Page Query")
+    @ApiOperation("Category Page Query")
     public Result<PageResult> page(CategoryPageQueryDTO categoryPageQueryDTO){
-        log.info("Page Query: {}", categoryPageQueryDTO);
+        log.info("Category Page Query: {}", categoryPageQueryDTO);
         PageResult pageResult = categoryService.pageQuery(categoryPageQueryDTO);
         return Result.success(pageResult);
     }

@@ -16,7 +16,7 @@ public interface CategoryService {
     void save(CategoryDTO categoryDTO);
 
     /**
-     * Page Query
+     * Category Page Query
      * @param categoryPageQueryDTO
      * @return
      */

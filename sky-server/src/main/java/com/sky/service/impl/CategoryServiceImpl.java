@@ -53,7 +53,7 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     /**
-     * Page Query 分页查询
+     * Category Page Query 分页查询
      * @param categoryPageQueryDTO
      * @return
      */

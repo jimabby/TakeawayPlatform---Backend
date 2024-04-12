@@ -25,7 +25,7 @@ public interface CategoryMapper {
     void insert(Category category);
 
     /**
-     * paging query
+     * Category paging query
      * @param categoryPageQueryDTO
      * @return
      */
