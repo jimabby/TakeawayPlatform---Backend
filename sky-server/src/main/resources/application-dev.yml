@@ -11,3 +11,6 @@ sky:
     access-key-id: LTAI5t8Napq3cf5KAV6gysjV
     access-key-secret: 88u7SMF0ldvxWLoJ5wmNIXdkN9COeB
     bucket-name: sky-jimcast
+  redis:
+    host: localhost
+    port: 6379
