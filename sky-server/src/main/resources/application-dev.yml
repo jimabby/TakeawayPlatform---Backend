@@ -24,3 +24,7 @@ sky:
     weChatPayCertFilePath: D:\pay\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
     notifyUrl: https://6619cf50.r6.cpolar.top/notify/paySuccess
     refundNotifyUrl: https://6619cf50.r6.cpolar.top/notify/refundSuccess
+  shop:
+    address: 上海市静安区万航渡路50弄
+  baidu:
+    ak: UEBQm9c3KZ5Lrs02C2q
